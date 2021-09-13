@@ -15,7 +15,8 @@ x=0
 for x in range(24):
         GPIO.output(16,True)
         if result.is_valid():
-                f1.write(str(datetime.datetime.now())+"\t"+" temp:"+str(result.temperature)+"  humidity:"+str(result.hu$        else:
+                f1.write(str(datetime.datetime.now())+"\t"+" temp:"+str(result.temperature)+"  humidity:"+str(result.humidity))     
+        else:
                 print("Error: %d" % result.error_code)
 
         time.sleep(1)
