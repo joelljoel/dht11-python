@@ -1,5 +1,5 @@
 # dht11-pythonproject
-A simple python script  for interfacing and reading temperature and humidity values from a dht11 sensor module and write them to a text file  using python. By default the script runs for a day and logs temperature and humidity after an hour passes 
+A simple python script  for interfacing ,reading temperature and humidity values from a dht11 sensor module and writing them to a text file  using python. By default the script runs for a day and logs temperature and humidity for each passing hours 
 #
 # Setting up
 pip3 install -r requirements.txt
