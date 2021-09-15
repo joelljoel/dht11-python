@@ -8,7 +8,6 @@ GPIO.setmode(GPIO.BCM)
 # iniatilize an optional led at gpio 16 to indicate when the sensor is taking input. commentout otherwise  
 GPIO.setup(16,GPIO.OUT)
 # read data using pin 14
-#now = datetime.datetime.now()
 instance = dht11.DHT11(pin = 4)
 #creating and opening a text file 'temp.txt' for writing temp and humidity
 f1=open("temp.txt","w")
