@@ -4,5 +4,5 @@ A simple python script  for interfacing ,reading temperature and humidity values
 # Setting up
 pip3 install -r requirements.txt
 
-#Usage
+# Usage
 python3 temp.py
