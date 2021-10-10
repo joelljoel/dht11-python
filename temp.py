@@ -17,7 +17,7 @@ for x in range(24):
         #led op, commentout otherwise
         GPIO.output(16,True)
         if result.is_valid():
-                f1.write(str(datetime.datetime.now())+"\t"+" temp:"+str(result.temperature)+"  humidity:"+str(result.humidity))     
+                f1.write(str(datetime.datetime.now())+"\t"+" temp:"+str(result.temperature)+"  humidity:"+str(result.humidity)+"\n")     
         else:
                 print("Error: %d" % result.error_code)
 
