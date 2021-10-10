@@ -3,6 +3,7 @@ A simple python script for reading temperature and humidity values from a dht11 
 #
 # Setting up
 git clone https://github.com/joelss2001/dht11-pythonproject
+
 pip3 install -r requirements.txt
 
 # Usage
